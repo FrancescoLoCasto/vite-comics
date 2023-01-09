@@ -6,48 +6,46 @@ export default {
 
 <template>
    <div class="container">
-      <div class="row">
-         <div class="col-12">
-            <div class="logo-img">
-               <img src="../assets/img/dc-logo.png" alt="">
-            </div>
-            <div class="list-navBar">
-               <ul>
-                  <li>
-                     Characters
-                  </li>
-                  <li>
-                     Comics
-                  </li>
-                  <li>
-                     Movies
-                  </li>
-                  <li>
-                     TV
-                  </li>
-                  <li>
-                     Games
-                  </li>
-                  <li>
-                     Collectibles
-                  </li>
-                  <li>
-                     videos
-                  </li>
-                  <li>
-                     fans
-                  </li>
-                  <li>
-                     news
-                  </li>
-                  <li>
-                     shop
-                  </li>
-               </ul>
-            </div>
-         </div>
+
+      <div class="logo-img">
+         <img src="../assets/img/dc-logo.png" alt="">
+      </div>
+      <div class="list-navBar">
+         <ul>
+            <li>
+               Characters
+            </li>
+            <li>
+               Comics
+            </li>
+            <li>
+               Movies
+            </li>
+            <li>
+               TV
+            </li>
+            <li>
+               Games
+            </li>
+            <li>
+               Collectibles
+            </li>
+            <li>
+               videos
+            </li>
+            <li>
+               fans
+            </li>
+            <li>
+               news
+            </li>
+            <li>
+               shop
+            </li>
+         </ul>
       </div>
    </div>
+
 </template>
 
 <style lang="scss">
@@ -56,6 +54,8 @@ export default {
    width: 100%;
    background-color: rgb(2, 213, 104);
    padding: 0;
+   display: flex;
+   flex-wrap: wrap;
 
    ul {
       width: 100%;
@@ -79,5 +79,11 @@ export default {
 
 .logo-img {
    width: 105px;
+
+   img{
+      height: 70px;
+      padding: 1rem;
+      margin-left: 3rem;
+   }
 }
 </style>

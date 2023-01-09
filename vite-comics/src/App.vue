@@ -1,5 +1,6 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
+import AppMain from './components/AppMain.vue'
 </script>
 
 <template>
@@ -7,6 +8,12 @@ import AppHeader from './components/AppHeader.vue'
   <section>
     <!-- Header section  -->
     <AppHeader />
+  </section>
+
+  <section>
+    <!-- Main Section -->
+
+    <AppMain />
   </section>
 
 </template>
