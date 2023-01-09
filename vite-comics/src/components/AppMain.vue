@@ -22,39 +22,39 @@ export default {
                </h4>
                <ul>
                   <li>
-                     bla
+                     Characters
                   </li>
                   <li>
-                     bla
+                     Comics
                   </li>
                   <li>
-                     bla
+                     Movies
                   </li>
                   <li>
-                     bla
+                     TV
                   </li>
                   <li>
-                     bla
+                     Games
                   </li>
                   <li>
-                     bla
+                     Videos
                   </li>
                   <li>
-                     bla
+                     News
                   </li>
 
                </ul>
             </div>
             <div class="list-one">
                <h4>
-                  DC Comics
+                  Shop
                </h4>
                <ul>
                   <li>
-                     bla
+                     shop DC
                   </li>
                   <li>
-                     bla
+                     Shop DC Collectibles
                   </li>
                </ul>
             </div>
@@ -63,52 +63,64 @@ export default {
             <div class="list-second-main">
                <div class="list-one">
                   <h4>
-                     DC Comics
+                     DC 
                   </h4>
                   <ul>
                      <li>
-                        bla
+                        Terms Of Use
                      </li>
                      <li>
-                        bla
+                        Privacy policy (new)
                      </li>
                      <li>
-                        bla
+                        Ad Choices 
                      </li>
                      <li>
-                        bla
+                        Advertising
                      </li>
                      <li>
-                        bla
+                        Jobs
                      </li>
                      <li>
-                        bla
+                        Subscriptions
                      </li>
                      <li>
-                        bla
+                        Talent Worckshops
                      </li>
                      <li>
-                        bla
+                        CPSC Certificates
                      </li>
                      <li>
-                        bla
+                        Ratings
                      </li>
                      <li>
-                        bla
+                        Shop Help
                      </li>
                      <li>
-                        bla
+                        Contact Us
                      </li>
 
                   </ul>
                </div>
                <div class="list-one">
                   <h4>
-                     DC Comics
+                     Sites
                   </h4>
                   <ul>
                      <li>
-                        bla
+                        DC
+                     </li>
+                     <li>
+                        MAD Magazine
+                     </li>
+                     <li>
+                        DC Kids
+                     </li>
+                     <li>
+                        DC Universe
+                     </li>
+                     <li>
+                        DC Power Visa
                      </li>
                   </ul>
                </div>
@@ -128,18 +140,36 @@ export default {
          margin-left: 10rem;
          padding-top: 3rem;
       }
+
+      
    }
 
    .banner-bg{
       height: 550px;
+      padding: 2rem;
       background-image: url(../assets/img/footer-bg.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
+
+      h4{
+         color: white;
+         font-size: 1.2rem;
+         margin-left: 3rem;
+      }
    }
 
-   .list-main{
-      margin: 2rem;
+   .list-one{
+      padding: 2rem;
+
+      ul{
+         color: rgb(184, 184, 184);
+         list-style-type: none;
+
+         li{
+            padding: .4rem;
+         }
+      }
    }
 
 
@@ -148,10 +178,9 @@ export default {
    .list-second-main{
       display: flex;
       flex-wrap: wrap;
-      margin: 2rem;
 
       ul{
-         color: white;
+         color: rgb(184, 184, 184);
          list-style-type: none;
 
          li{
