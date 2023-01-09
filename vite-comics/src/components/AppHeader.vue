@@ -4,12 +4,12 @@ export default {
 }
 </script>
 
-<template lang="">
+<template>
    <div class="container">
       <div class="row">
          <div class="col-12">
             <div class="logo-img">
-               <img src="" alt="">
+               <img src="../assets/img/dc-logo.png" alt="">
             </div>
             <div class="list-navBar">
                <ul>
@@ -52,11 +52,15 @@ export default {
 
 <style lang="scss">
 .container {
-
    height: 100px;
+   width: 100%;
    background-color: rgb(2, 213, 104);
+   padding: 0;
 
    ul {
+      width: 100%;
+      padding: 0;
+      margin-left: 20rem;
       display: flex;
       list-style-type: none;
 
@@ -67,5 +71,13 @@ export default {
    }
 
 
+}
+
+.list-navBar {
+   width: 305px;
+}
+
+.logo-img {
+   width: 105px;
 }
 </style>
