@@ -128,10 +128,9 @@ export default {
                </div>
             </div>
 
-            <div class="img-logo-transp">
-               <img src="" alt="">
-            </div>
-      </div>
+         </div>
+         <div class="img-logo-transp">
+         </div>
    </div>
 
    
@@ -205,7 +204,9 @@ export default {
    }
 
    .img-logo-transp{
-      height: 500px;
-      background-image: url(../assets/img/dc-logo-bg.png);
+   width: 70%;
+   background-image: url(../assets/img/dc-logo-bg.png);
+   background-repeat: no-repeat;
+   background-size: 800px;
    }
 </style>
