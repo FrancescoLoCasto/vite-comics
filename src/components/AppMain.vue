@@ -15,7 +15,9 @@ export default {
       </div>
 
       <div class="banner-bg">
-         <div class="list-main">
+
+         <div class="container-list">
+            <div class="list-main">
             <div class="list-one">
                <h4>
                   DC Comics
@@ -125,7 +127,15 @@ export default {
                   </ul>
                </div>
             </div>
+
+            <div class="img-logo-transp">
+               <img src="" alt="">
+            </div>
       </div>
+   </div>
+
+   
+
 </template>
 
 
@@ -142,6 +152,11 @@ export default {
       }
 
       
+   }
+
+   .container-list{
+      display: flex;
+      width: 50%;
    }
 
    .banner-bg{
@@ -187,5 +202,10 @@ export default {
             padding: .4rem;
          }
       }
+   }
+
+   .img-logo-transp{
+      height: 500px;
+      background-image: url(../assets/img/dc-logo-bg.png);
    }
 </style>
