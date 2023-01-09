@@ -14,6 +14,10 @@ export default {
          </div>
       </div>
 
+      <div class="banner-blue-bonus">
+
+      </div>
+
       <div class="banner-bg">
 
          <div class="container-list">
@@ -208,5 +212,10 @@ export default {
    background-image: url(../assets/img/dc-logo-bg.png);
    background-repeat: no-repeat;
    background-size: 800px;
+   }
+
+   .banner-blue-bonus{
+      height: 200px;
+      background-color: rgb(61, 61, 224);
    }
 </style>
