@@ -41,7 +41,7 @@ export default {
         },
         {
           text : 'shop',
-          status: false,
+          status: true,
         },
          ]
       }
@@ -59,34 +59,9 @@ export default {
       <div class="list-navBar">
          <ul>
             <li>
-               Characters
-            </li>
-            <li>
-               Comics
-            </li>
-            <li>
-               Movies
-            </li>
-            <li>
-               TV
-            </li>
-            <li>
-               Games
-            </li>
-            <li>
-               Collectibles
-            </li>
-            <li>
-               videos
-            </li>
-            <li>
-               fans
-            </li>
-            <li>
-               news
-            </li>
-            <li>
-               shop
+               <li v-for="menuItem in mainMenu" :class="(menuItem.status) ? 'active' : ''">
+                   {{ menuItem.text }}
+                   </li>
             </li>
          </ul>
       </div>
@@ -98,7 +73,6 @@ export default {
 .container {
    height: 100px;
    width: 100%;
-   background-color: rgb(2, 213, 104);
    padding: 0;
    display: flex;
    flex-wrap: wrap;
@@ -111,6 +85,7 @@ export default {
       list-style-type: none;
 
       li {
+         display: inline;
          padding: .7rem;
       }
 
@@ -120,6 +95,8 @@ export default {
 }
 
 .list-navBar {
+   margin: 0 auto;
+   display: flex;
    width: 305px;
 }
 
@@ -134,8 +111,8 @@ export default {
 }
 
 .active {
-      border-top: 0.5rem solid #ffffff;
       border-bottom: 0.5rem solid #0282f9;
       color: #0282f9;
       }
+
 </style>
