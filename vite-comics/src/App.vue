@@ -12,7 +12,6 @@ import AppMain from './components/AppMain.vue'
 
   <section>
     <!-- Main Section -->
-
     <AppMain />
   </section>
 
