@@ -1,5 +1,51 @@
 <script>
 export default {
+   data() {
+      return{
+         mainMenu : [
+         {
+          text : 'characters',
+          status: false,
+        },
+        {
+          text : 'comics',
+          status: true,
+        },
+        {
+          text : 'movies',
+          status: false,
+        },
+        {
+          text : 'tv',
+          status: false,
+        },
+        {
+          text : 'games',
+          status: false,
+        },
+        {
+          text : 'collectibles',
+          status: false,
+        },
+        {
+          text : 'videos',
+          status: false,
+        },
+        {
+          text : 'fans',
+          status: false,
+        },
+        {
+          text : 'news',
+          status: false,
+        },
+        {
+          text : 'shop',
+          status: false,
+        },
+         ]
+      }
+   }
 
 }
 </script>
@@ -86,4 +132,10 @@ export default {
       margin-left: 3rem;
    }
 }
+
+.active {
+      border-top: 0.5rem solid #ffffff;
+      border-bottom: 0.5rem solid #0282f9;
+      color: #0282f9;
+      }
 </style>
