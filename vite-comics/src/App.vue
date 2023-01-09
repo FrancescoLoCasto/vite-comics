@@ -1,6 +1,7 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
+import AppFooter from './components/AppFooter.vue'
 </script>
 
 <template>
@@ -13,6 +14,11 @@ import AppMain from './components/AppMain.vue'
   <section>
     <!-- Main Section -->
     <AppMain />
+  </section>
+
+  <section>
+    <!-- Main Section -->
+    <AppFooter />
   </section>
 
 </template>
