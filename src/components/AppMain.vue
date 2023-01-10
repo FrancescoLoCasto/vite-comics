@@ -6,6 +6,12 @@ export default {
 </script>
 
 <template lang="">
+
+      <div class="jumbotron-container">
+
+      </div>
+
+
       <div class="blue-row-container">
          <div class="text-content">
             <h1>
@@ -143,6 +149,14 @@ export default {
 
 
 <style lang="scss">
+
+   .jumbotron-container{
+      width: 100%;
+      height: 600px;
+      background-image: url(../assets/img/jumbotron.jpg);
+   }
+
+
    .blue-row-container {
       width: 100%;
       height: 150px;
