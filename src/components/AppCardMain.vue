@@ -14,7 +14,7 @@ export default {
 <template lang="">
    <div class="card-box">
       <img :src="imageUrl" :alt="filmName">
-      <h4>{{ filmName }}</h4>
+      <p>{{ filmName }}</p>
    </div>
 </template>
 
@@ -26,11 +26,11 @@ export default {
       width: calc((100% / 6))
 
       img{
-         width: 200px;
-         height: 200px;
+         width: 100%;
+         height: 100%;
       }
 
-      h3{
+      span{
          color: white;
          font-size: 1rem;
          text-transform: uppercase
