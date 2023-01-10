@@ -238,7 +238,7 @@ export default {
 
 
    .blue-row-container {
-      background-color: rgb(1, 1, 86);
+      background-color: #1c1c1c;
 
       .text-content{
          color: white;
