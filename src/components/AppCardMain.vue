@@ -14,20 +14,26 @@ export default {
 <template lang="">
    <div class="card-box">
       <img :src="imageUrl" :alt="filmName">
-      <h3>{{ filmName }}</h3>
+      <h4>{{ filmName }}</h4>
    </div>
 </template>
 
 
 <style lang="scss">
 
-   .card{
+   .card-box{
+      padding: 2rem;
       width: calc((100% / 6))
-      
 
       img{
-         width: 250px;
-         height: 250px;
+         width: 200px;
+         height: 200px;
+      }
+
+      h3{
+         color: white;
+         font-size: 1rem;
+         text-transform: uppercase
       }
    }
 </style>

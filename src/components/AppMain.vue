@@ -244,6 +244,8 @@ export default {
          color: white;
          margin-left: 10rem;
          padding-top: 3rem;
+         display: flex;
+         flex-wrap: wrap;
       }
 
       
